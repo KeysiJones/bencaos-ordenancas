@@ -18,7 +18,7 @@
             layout="@layout/back_toolbar" />
 
         <Button
-            android:backgroundTint="@color/light_green"
+            android:backgroundTint="@color/light_blue"
             android:id="@+id/btnBreadPrayer"
             android:layout_margin="5dp"
             android:layout_width="300dp"
@@ -32,7 +32,7 @@
 
         <Button
             android:id="@+id/btnWaterPrayer"
-            android:backgroundTint="@color/light_green"
+            android:backgroundTint="@color/light_blue"
             android:layout_margin="5dp"
             android:layout_width="300dp"
             android:layout_height="70dp"
