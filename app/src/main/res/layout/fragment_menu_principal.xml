@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.MenuPrincipalFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <include
+            android:id="@+id/menu_principal_toolbar"
+            layout="@layout/app_toolbar" />
+
+        <Button
+            android:id="@+id/btnBlessingsMenu"
+            android:layout_margin="5dp"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:text="Bençãos e ordenanças"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@id/oracoes_dedicatorias"
+            app:layout_constraintCircleRadius="20dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/menu_principal_toolbar" />
+
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/oracoes_dedicatorias"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:text="Orações e dedicatórias"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnBlessingsMenu" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

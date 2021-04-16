@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuPrincipalFragment">
+    <fragment
+        android:id="@+id/oracaoAguaFragment"
+        android:name="com.kdev.ordenancas.fragments.OracaoAguaFragment"
+        android:label="fragment_oracao_agua"
+        tools:layout="@layout/fragment_oracao_agua" />
+    <fragment
+        android:id="@+id/oracaoPaoFragment"
+        android:name="com.kdev.ordenancas.fragments.OracaoPaoFragment"
+        android:label="fragment_oracao_pao"
+        tools:layout="@layout/fragment_oracao_pao" />
+    <fragment
+        android:id="@+id/menuPrincipalFragment"
+        android:name="com.kdev.ordenancas.fragments.MenuPrincipalFragment"
+        android:label="fragment_menu_principal"
+        tools:layout="@layout/fragment_menu_principal" >
+        <action
+            android:id="@+id/action_menuPrincipalFragment_to_oracoesDedicatoriasFragment"
+            app:destination="@id/oracoesDedicatoriasFragment" />
+        <action
+            android:id="@+id/action_menuPrincipalFragment_to_bencaosSacerdocioFragment"
+            app:destination="@id/bencaosSacerdocioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/oracoesDedicatoriasFragment"
+        android:name="com.kdev.ordenancas.fragments.OracoesDedicatoriasFragment"
+        android:label="fragment_oracoes_dedicatorias"
+        tools:layout="@layout/fragment_oracoes_dedicatorias" >
+        <action
+            android:id="@+id/action_oracoesDedicatoriasFragment_to_oracaoAguaFragment"
+            app:destination="@id/oracaoAguaFragment" />
+        <action
+            android:id="@+id/action_oracoesDedicatoriasFragment_to_oracaoPaoFragment"
+            app:destination="@id/oracaoPaoFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_bencaos_sacerdocio"
+        android:id="@+id/bencaosSacerdocioFragment"
+        android:name="com.kdev.ordenancas.fragments.BencaosSacerdocioFragment"
+        android:label="BencaosSacerdocioFragment" >
+        <action
+            android:id="@+id/action_bencaosSacerdocioFragment_to_bencaosDetailFragment"
+            app:destination="@id/bencaosDetailFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_bencaos_detail"
+        android:id="@+id/bencaosDetailFragment"
+        android:name="com.kdev.ordenancas.fragments.BencaosDetailFragment"
+        android:label="BencaosDetailFragment" >
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="blessing"
+            app:argType="string" />
+    </fragment>
+</navigation>

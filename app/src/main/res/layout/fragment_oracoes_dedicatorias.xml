@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.OracoesDedicatoriasFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <include
+            android:id="@+id/oracoes_dedicatorias_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/back_toolbar" />
+
+        <Button
+            android:backgroundTint="@color/light_green"
+            android:id="@+id/btnBreadPrayer"
+            android:layout_margin="5dp"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:text="Oração do pão"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/btnWaterPrayer"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/oracoes_dedicatorias_toolbar" />
+
+        <Button
+            android:id="@+id/btnWaterPrayer"
+            android:backgroundTint="@color/light_green"
+            android:layout_margin="5dp"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:text="Oração da agua"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnBreadPrayer"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

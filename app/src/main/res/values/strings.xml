@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Bençãos e Ordenanças</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="bencao_consolo">
+        \u0020 Para dar uma bênção paterna, ou bênçãos de consolo e de aconselhamento, um ou mais portadores do Sacerdócio de Melquisedeque colocam as mãos levemente sobre a cabeça da pessoa.
+        Em seguida, aquele que profere a bênção:
+        \n\n
+        1. Chama a pessoa pelo nome completo.\n
+        2. Declara que a bênção está sendo realizada pela autoridade do Sacerdócio de Melquisedeque.\n
+        3. Dá uma bênção de consolo e aconselhamento conforme guiado pelo Espírito.\n
+        4. Encerra em nome de Jesus Cristo.
+    </string>
+
+    <string name="bencao_enfermos">
+        \u0020 A bênção de enfermos é composta de duas partes: a unção com óleo e o selamento da unção.
+        \n
+        Ao realizar a unção com óleo, o portador do Sacerdócio de Melquisedeque:\n\n
+        1. Coloca uma gota de óleo consagrado na cabeça da pessoa.\n
+        2. Coloca levemente as mãos na cabeça da pessoa e a chama pelo nome completo.\n
+        3. Declara estar agindo pela autoridade do Sacerdócio de Melquisedeque.\n
+        4. Declara estar ungindo com óleo consagrado para a unção e bênção de enfermos e aflitos.\n
+        5. Encerra em nome de Jesus Cristo.
+        \n\n
+        \u0020 Para selar a unção, um ou mais portadores do Sacerdócio de Melquisedeque colocam levemente as mãos sobre a cabeça da pessoa.
+        Em seguida, aquele que sela a unção:
+        \n\n
+        1. Chama a pessoa pelo nome completo.\n
+        2. Declara que está selando a unção pela autoridade do Sacerdócio de Melquisedeque.\n
+        3. Dá uma bênção conforme guiado pelo Espírito.\n
+        4. Encerra em nome de Jesus Cristo.
+    </string>
+
+    <string name="ordenanca_batismo">
+    \u0020 Para realizar a ordenança do batismo, um sacerdote ou um portador do Sacerdócio de Melquisedeque:\n\n
+
+    1. Fica em pé dentro da água, com a pessoa que será batizada.\n
+    2. Segura o pulso direito da pessoa com a mão esquerda (por conveniência e segurança). A pessoa que está sendo batizada segura o pulso esquerdo do portador do sacerdócio com a mão esquerda.\n
+    3. Ergue o braço direito em ângulo reto.\n
+    4. Fala o nome completo da pessoa e diz: “Tendo sido comissionado por Jesus Cristo, eu te batizo em nome do Pai e do Filho e do Espírito Santo. Amém” (Doutrina e Convênios 20:73).\n
+    5. Pede à pessoa que tape o nariz com a mão direita (por conveniência); em seguida, ele coloca a mão direita no alto das costas da pessoa e a imerge completamente na água, inclusive as roupas. É mais fácil imergir a pessoa se ela dobrar os joelhos.\n
+    6. Ajuda a pessoa a sair da água.
+    </string>
+
+    <string name="ordenanca_confirmacao">
+        \u0020 Sob a direção do bispado, um ou mais portadores do Sacerdócio de Melquisedeque podem participar da confirmação. Eles colocam levemente as mãos sobre a cabeça da pessoa. Em seguida, aquele que profere a bênção:\n\n
+
+        1. Chama a pessoa pelo nome completo.\n
+
+        2. Declara que a ordenança está sendo realizada pela autoridade do Sacerdócio de Melquisedeque. \n
+
+        3. Confirma a pessoa como membro de A Igreja de Jesus Cristo dos Santos dos Últimos Dias.\n
+
+        4. Declara: “Recebe o Espírito Santo” (não “recebe o dom do Espírito Santo”).\n
+
+        5. Dá uma bênção conforme guiado pelo Espírito. \n
+        6. Encerra em nome de Jesus Cristo.
+    </string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="sacrament_water_prayer">Ó Deus, Pai Eterno, nós te rogamos em nome de teu Filho, Jesus Cristo, que abençoes e santifiques esta agua para as almas de todos os que beberem dela, para que o façam em lembrança do sangue de teu Filho, que por eles foi derramado, e testifiquem a ti, ó Deus, Pai Eterno, que sempre se lembram dele, para que possam ter consigo o seu Espírito. Amém.</string>
+    <string name="sacrament_bread_prayer">Ó Deus, Pai Eterno, nós te rogamos em nome de teu Filho, Jesus Cristo, que abençoes e santifiques este pão para as almas de todos os que partilharem dele, para que o comam em lembrança do corpo de teu Filho e testifiquem a ti, ó Deus, Pai Eterno, que desejam tomar sobre si o nome de teu Filho e recordá-lo sempre e guardar os mandamentos que ele lhes deu, para que possam ter sempre consigo o seu Espírito. Amém.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
