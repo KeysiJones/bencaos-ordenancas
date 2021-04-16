@@ -9,7 +9,7 @@
     android:layout_marginRight="8dp"
     android:layout_marginBottom="18dp"
     android:id="@+id/card_opcoes"
-    card_view:cardBackgroundColor="@color/light_green"
+    card_view:cardBackgroundColor="#03A9F4"
     card_view:cardCornerRadius="2dp"
     card_view:contentPadding="10dp"
     android:foreground="?selectableItemBackground"
