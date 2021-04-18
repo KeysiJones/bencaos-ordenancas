@@ -18,11 +18,12 @@
             layout="@layout/back_toolbar" />
 
         <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:backgroundTint="@color/light_blue"
             android:id="@+id/btnBreadPrayer"
-            android:layout_margin="5dp"
             android:layout_width="300dp"
-            android:layout_height="70dp"
+            android:layout_height="170dp"
             android:text="Oração do pão"
             android:textAlignment="center"
             app:layout_constraintBottom_toTopOf="@+id/btnWaterPrayer"
@@ -31,11 +32,12 @@
             app:layout_constraintTop_toBottomOf="@+id/oracoes_dedicatorias_toolbar" />
 
         <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:id="@+id/btnWaterPrayer"
             android:backgroundTint="@color/light_blue"
-            android:layout_margin="5dp"
             android:layout_width="300dp"
-            android:layout_height="70dp"
+            android:layout_height="170dp"
             android:text="Oração da agua"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
