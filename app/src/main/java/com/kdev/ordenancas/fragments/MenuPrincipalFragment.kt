@@ -3,12 +3,10 @@ package com.kdev.ordenancas.fragments
 import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
-import android.widget.Button
-import android.widget.Toast
-import android.widget.Toolbar
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.fragment.findNavController
 import com.kdev.ordenancas.R
+import com.kdev.ordenancas.databinding.FragmentMenuPrincipalBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -28,18 +26,18 @@ class MenuPrincipalFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        val binding = inflater.inflate(R.layout.fragment_menu_principal, container, false)
-        val toolbar = binding.findViewById<Toolbar>(R.id.menu_principal_toolbar)
+        val binding = FragmentMenuPrincipalBinding.inflate(inflater)
+        val toolbar = binding.menuPrincipalToolbar.appToolbar
 
         activity?.setActionBar(toolbar)
         activity?.actionBar?.setDisplayShowHomeEnabled(true)
-        //setHasOptionsMenu(true)
+        setHasOptionsMenu(true)
 
-        binding.findViewById<Button>(R.id.oracoes_dedicatorias).setOnClickListener {
+        binding.oracoesDedicatorias.setOnClickListener {
             findNavController().navigate(R.id.action_menuPrincipalFragment_to_oracoesDedicatoriasFragment)
         }
 
-        binding.findViewById<Button>(R.id.btnBlessingsMenu).setOnClickListener {
+        binding.btnBlessingsMenu.setOnClickListener {
             findNavController().navigate(R.id.action_menuPrincipalFragment_to_bencaosSacerdocioFragment)
         }
 
@@ -48,7 +46,7 @@ class MenuPrincipalFragment : Fragment() {
             myDrawerMenu?.openDrawer(Gravity.LEFT)
         }
 
-        return binding
+        return binding.root.rootView
     }
 
 //    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
